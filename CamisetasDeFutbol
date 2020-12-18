@@ -1,0 +1,19 @@
+REM ***********************
+REM
+REM CAMISETAS DE FUTBOL
+REM
+REM ***********************
+REM
+LET N=31
+LET N=N+1
+IF N=100 THEN 110
+LET M=N*N
+LET P=INT(M/100)
+LET Q=INT(100*(M/100-INT(M/100))+.5)
+LET R=(P+Q)*(P+Q)
+IF M<>R THEN 100
+PRINT P;"";
+IF Q<10 THEN PRINT "Q";
+PRINT Q
+GOTO 20
+END

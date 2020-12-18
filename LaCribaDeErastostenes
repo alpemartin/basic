@@ -1,0 +1,27 @@
+REM ***********************
+REM
+REM LA CRIBA DE ERASTOSTENES
+REM
+REM ***********************
+REM
+DIM A(10000)
+INPUT "INTRODUZCA EL NUMERO N";N
+REM
+I=0
+I=I+1
+A(I)=1
+IF I<>N THEN 210
+J=1
+J=1+1
+IF A(J)=0 THEN 370
+L=A(J)
+K=L
+L=L+K
+A(L)=0
+IF L<=N THEN 340
+IF J<> INT(N/2+.5) THEN 310
+I=0
+I=I+1
+IF A(I)<>O THEN PRINT A(I)
+IF <>N THEN 410
+END

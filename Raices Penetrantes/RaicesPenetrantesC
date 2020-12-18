@@ -1,0 +1,14 @@
+REM ***************
+REM
+REM RAICES PENETRANTES
+REM
+REM ***************
+REM
+LET R=2
+LET N=7
+LET P=0
+LET S=(N-(N+P)↑(1/R))↑(1/R)
+IF S=P
+GOTO 30
+PRINT "LA RAIZ PENETRANTE ES " ;S
+END
